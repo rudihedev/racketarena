@@ -27,6 +27,7 @@
   - Name
   - Price
   - Description
+  - Stock Level/In or out of stock
   - Add to Cart Form:
     - Quantity Input
     - Increment and Decrement button
