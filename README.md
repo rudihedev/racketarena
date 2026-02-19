@@ -15,3 +15,12 @@
 
 - <https://www.feletsports.com/racquet>
 - <https://bambino.budigunawan.com/>
+
+## Features
+
+- Home Page
+  - Hero Section
+  - Products Catalogue
+- Product Page
+  - Image
+  - SKU (Stock Keeping Unit)
