@@ -10,3 +10,8 @@
   - General: <https://github.com/rudihedev/racketarena>
   - Backend: <https://github.com/rudihedev/racketarena-api>
   - Frontend: <https://github.com/rudihedev/racketarena-web>
+
+## Inspirations
+
+- <https://www.feletsports.com/racquet>
+- <https://bambino.budigunawan.com/>
