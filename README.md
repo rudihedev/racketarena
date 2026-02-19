@@ -44,3 +44,15 @@
     - Product Items to buy
     - Grand Total of all product items to buy
 - Place Order / Transaction is being processed
+
+## Backend REST API Endpoints
+
+- Production: `https://racketarena.rudihe.com`
+- Local: `http://localhost:3000`
+
+Priority:
+
+| Endpoint           | HTTP  | Description       | Permission |
+| ------------------ | ----- | ----------------- | ---------- |
+| `/products`        | `GET` | Get all products  | Public     |
+| `/products/{slug}` | `GET` | Get product by id | Public     |
