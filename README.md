@@ -67,3 +67,15 @@ With Auth:
 | `auth/login`     | `POST` | Login user               | Public        |
 | `auth/me`        | `GET`  | Check authenticated user | Authenticated |
 | `auth/logout`    | `POST` | Logout user              | Authenticated |
+
+## Data Structure
+
+### Product
+
+```json
+{
+  "id": "abc123",
+  "name": "Yonex Nanoflare",
+  "price": 990000
+}
+```
