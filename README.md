@@ -61,12 +61,21 @@ With Auth:
 
 | Endpoint         | HTTP   | Description              | Permission    |
 | ---------------- | ------ | ------------------------ | ------------- |
-| `/users`         | `GET`  | Get all userss           | Public        |
+| `/users`         | `GET`  | Get all users            | Public        |
 | `/users/{id}`    | `GET`  | Get user by id           | Public        |
 | `/auth/register` | `POST` | Register new user        | Public        |
-| `auth/login`     | `POST` | Login user               | Public        |
-| `auth/me`        | `GET`  | Check authenticated user | Authenticated |
-| `auth/logout`    | `POST` | Logout user              | Authenticated |
+| `/auth/login`    | `POST` | Login user               | Public        |
+| `/auth/me`       | `GET`  | Check authenticated user | Authenticated |
+| `/auth/logout`   | `POST` | Logout user              | Authenticated |
+
+Cart:
+
+| Endpoint           | HTTP     | Description                    | Permission    |
+| ------------------ | -------- | ------------------------------ | ------------- |
+| `/cart`            | `GET`    | Get user's cart                | Authenticated |
+| `/cart/items`      | `PUT`    | Add product & quantity to cart | Authenticated |
+| `/cart/items/{id}` | `DELETE` | Delete product from cart       | Authenticated |
+| `/cart/items/{id}` | `PATCH`  | Update product quantity        | Authenticated |
 
 ## Data Structure
 
