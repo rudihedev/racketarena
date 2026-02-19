@@ -74,8 +74,13 @@ With Auth:
 
 ```json
 {
-  "id": "abc123",
+  "id": "ULID123",
+  "slug": "yonex-nanoflare",
   "name": "Yonex Nanoflare",
-  "price": 990000
+  "price": 990000,
+  "sku": "Y-NANOFLARE-1",
+  "stockQty": 10,
+  "createdAt": "...",
+  "updatedAt": "..."
 }
 ```
