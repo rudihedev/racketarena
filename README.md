@@ -56,3 +56,14 @@ Priority:
 | ------------------ | ----- | ----------------- | ---------- |
 | `/products`        | `GET` | Get all products  | Public     |
 | `/products/{slug}` | `GET` | Get product by id | Public     |
+
+With Auth:
+
+| Endpoint         | HTTP   | Description              | Permission    |
+| ---------------- | ------ | ------------------------ | ------------- |
+| `/users`         | `GET`  | Get all userss           | Public        |
+| `/users/{id}`    | `GET`  | Get user by id           | Public        |
+| `/auth/register` | `POST` | Register new user        | Public        |
+| `auth/login`     | `POST` | Login user               | Public        |
+| `auth/me`        | `GET`  | Check authenticated user | Authenticated |
+| `auth/logout`    | `POST` | Logout user              | Authenticated |
