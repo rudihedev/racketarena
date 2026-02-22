@@ -25,6 +25,7 @@
   - Image
   - SKU (Stock Keeping Unit)
   - Name
+  - Weight
   - Price
   - Description
   - Stock Level/In or out of stock
