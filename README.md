@@ -87,6 +87,7 @@ Cart:
   "slug": "yonex-nanoflare",
   "name": "Yonex Nanoflare",
   "price": 990000,
+  "weight": "3U",
   "sku": "Y-NANOFLARE-1",
   "stockQty": 10,
   "createdAt": "...",
