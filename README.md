@@ -24,6 +24,7 @@
 - Product Page
   - Image
   - SKU (Stock Keeping Unit)
+  - Brand
   - Name
   - Weight
   - Price
